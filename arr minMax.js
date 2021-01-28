@@ -7,3 +7,7 @@ const minMax = (arr) => {
   minMax([1, 2, 3, 4, 5]) // => [1, 5]
   minMax([1, 1, 1, 1, 1]) // => [1, 1]
   
+  test('test min max', () => {
+    expect(max(5, 6)).toBe(6);
+  });
+
