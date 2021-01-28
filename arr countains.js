@@ -9,3 +9,11 @@ const contains = (element, arr) => {
 }
 console.log(contains(69, numbers)) // => true
 console.log(contains(666, numbers)) // => false
+
+test('test countains', () => {
+  expect(contains(69, numbers)).toBe(true);
+});
+
+test('test countains', () => {
+  expect(contains(666, numbers)).toBe(false);
+});
