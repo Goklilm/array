@@ -14,3 +14,11 @@ const multiplier = (arr) => {
   console.log(multiplier([1, 2, 3, 4]))
   console.log(multiplier([5, 5])) 
   
+  test('test multiplier', () => {
+    expect(multiplier([1, 2, 3, 4])).toBe([1, 4, 9, 16]);
+  });
+  
+  test('test multiplier', () => {
+    expect(multiplier([5, 5])).toBe([25, 25]);
+  });
+  
